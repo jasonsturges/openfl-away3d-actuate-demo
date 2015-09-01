@@ -52,7 +52,7 @@ For other compiler errors, make sure libraries are updated to the latest version
 
 To run, call `openfl` with a target, such as:
 
-    $ cd openfl-away3d-terrain-demo/
+    $ cd openfl-away3d-actuate-demo/
     $ openfl test flash
 
 And you end up with:
