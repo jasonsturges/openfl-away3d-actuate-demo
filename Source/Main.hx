@@ -20,9 +20,9 @@ import away3d.lights.DirectionalLight;
 import away3d.materials.lightpickers.StaticLightPicker;
 import away3d.materials.ColorMaterial;
 
-import openfl.geom.Vector3D;
 import openfl.display.StageAlign;
 import openfl.display.StageScaleMode;
+import openfl.geom.Vector3D;
 import openfl.events.TimerEvent;
 
 
