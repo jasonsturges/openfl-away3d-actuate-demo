@@ -24,6 +24,7 @@ import openfl.display.StageAlign;
 import openfl.display.StageScaleMode;
 import openfl.geom.Vector3D;
 import openfl.events.TimerEvent;
+import openfl.utils.Timer;
 
 
 class Main extends Away3dViewport {
@@ -36,7 +37,7 @@ class Main extends Away3dViewport {
     public var meshes:Array<Mesh>;
     public var light:DirectionalLight;
     public var lightPicker:StaticLightPicker;
-    public var timer:RandomTimer;
+    public var timer:Timer;
     public static inline var COUNT:UInt = 64;
 
 
@@ -54,7 +55,11 @@ class Main extends Away3dViewport {
     override public function initialize():Void {
         super.initialize();
 
-        timer = new RandomTimer(500, 1500);
+        // TODO: Unknown issue with RandomTimer in calculations.
+        //       Once isolated, replaced Timer
+        //timer = new RandomTimer(500, 1500);
+
+        timer = new Timer(1000);
         timer.addEventListener(TimerEvent.TIMER, timerHandler);
         timer.start();
     }
@@ -146,6 +151,13 @@ class Main extends Away3dViewport {
             o.dispose();
             o = null;
         }
+
+        // TODO: Remove once RandomTimer implementation issues are resolved.
+        timer.reset();
+        timer.removeEventListener(TimerEvent.TIMER, timerHandler);
+        timer = new Timer(Math.random() * 1000 + 500);
+        timer.addEventListener(TimerEvent.TIMER, timerHandler);
+        timer.start();
     }
 
     override public function prerender():Void {
