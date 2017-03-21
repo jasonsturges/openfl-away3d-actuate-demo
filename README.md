@@ -2,7 +2,7 @@
 3D tweening demo using OpenFL, Away3D, Actuate, and Haxe
 
 
-# Getting started
+## Getting started
 
 This is a [Haxe](http://haxe.org/) project demonstrating tweening, built with [OpenFL](http://www.openfl.org/), [Away3D](http://away3d.com/), and [Actuate](https://github.com/openfl/actuate).
 
@@ -41,13 +41,20 @@ For other compiler errors, make sure libraries are updated to the latest version
     $ haxelib upgrade
 
 
-# Building and running
+## Building and running
 
-To run, call `openfl` with a target, such as:
+To run, call `openfl test` with a target, such as:
 
     $ cd openfl-away3d-actuate-demo/
-    $ openfl test flash
+    $ openfl test html5
 
 And you end up with:
 
-![screen-capture](http://labs.jasonsturges.com/openfl/openfl-away3d-actuate-demo/openfl-away3d-actuate-demo.png)
+### html5
+![screen-capture](http://labs.jasonsturges.com/openfl/openfl-away3d-actuate-demo/openfl-away3d-actuate-demo-html5.png)
+
+### C++
+![screen-capture](http://labs.jasonsturges.com/openfl/openfl-away3d-actuate-demo/openfl-away3d-actuate-demo-cpp.png)
+
+### Flash
+![screen-capture](http://labs.jasonsturges.com/openfl/openfl-away3d-actuate-demo/openfl-away3d-actuate-demo-flash.png)
