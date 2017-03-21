@@ -51,10 +51,12 @@ To run, call `openfl test` with a target, such as:
 And you end up with:
 
 ### html5
+Launch demo: http://labs.jasonsturges.com/openfl/openfl-away3d-actuate-demo/html5/
 ![screen-capture](http://labs.jasonsturges.com/openfl/openfl-away3d-actuate-demo/openfl-away3d-actuate-demo-html5.png)
 
 ### C++
 ![screen-capture](http://labs.jasonsturges.com/openfl/openfl-away3d-actuate-demo/openfl-away3d-actuate-demo-cpp.png)
 
 ### Flash
+Launch demo: http://labs.jasonsturges.com/openfl/openfl-away3d-actuate-demo/flash/
 ![screen-capture](http://labs.jasonsturges.com/openfl/openfl-away3d-actuate-demo/openfl-away3d-actuate-demo-flash.png)
