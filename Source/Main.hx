@@ -167,7 +167,7 @@ class Main extends Away3dViewport {
         camera.lookAt(Vector3D.X_AXIS);
 
         camera.x = light.x = Math.sin(Lib.getTimer() / 3000) * 1000;
-        camera.z = light .z = Math.cos(Lib.getTimer() / 3000) * 1000;
+        camera.z = light.z = Math.cos(Lib.getTimer() / 3000) * 1000;
     }
 
 }
