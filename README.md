@@ -1,6 +1,9 @@
 # OpenFL Away3D Actuate Demo
 3D tweening demo using OpenFL, Away3D, Actuate, and Haxe
 
+Launch demo: http://labs.jasonsturges.com/openfl/openfl-away3d-actuate-demo/html5/
+![screen-capture](http://labs.jasonsturges.com/openfl/openfl-away3d-actuate-demo/openfl-away3d-actuate-demo-html5.png)
+
 
 ## Getting started
 
@@ -47,19 +50,6 @@ To run, call `openfl test` with a target, such as:
 
     $ cd openfl-away3d-actuate-demo/
     $ openfl test html5
-
-And you end up with:
-
-### html5
-Launch demo: http://labs.jasonsturges.com/openfl/openfl-away3d-actuate-demo/html5/
-![screen-capture](http://labs.jasonsturges.com/openfl/openfl-away3d-actuate-demo/openfl-away3d-actuate-demo-html5.png)
-
-### C++
-![screen-capture](http://labs.jasonsturges.com/openfl/openfl-away3d-actuate-demo/openfl-away3d-actuate-demo-cpp.png)
-
-### Flash
-Launch demo: http://labs.jasonsturges.com/openfl/openfl-away3d-actuate-demo/flash/
-![screen-capture](http://labs.jasonsturges.com/openfl/openfl-away3d-actuate-demo/openfl-away3d-actuate-demo-flash.png)
 
 
 ## License
