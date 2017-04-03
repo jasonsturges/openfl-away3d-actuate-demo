@@ -13,17 +13,17 @@ import flash.Lib;
 
 import motion.Actuate;
 import away3d.core.base.Object3D;
-import away3d.primitives.CubeGeometry;
-import away3d.materials.methods.FilteredShadowMapMethod;
 import away3d.entities.Mesh;
 import away3d.lights.DirectionalLight;
-import away3d.materials.lightpickers.StaticLightPicker;
 import away3d.materials.ColorMaterial;
+import away3d.materials.lightpickers.StaticLightPicker;
+import away3d.materials.methods.FilteredShadowMapMethod;
+import away3d.primitives.CubeGeometry;
 
 import openfl.display.StageAlign;
 import openfl.display.StageScaleMode;
-import openfl.geom.Vector3D;
 import openfl.events.TimerEvent;
+import openfl.geom.Vector3D;
 import openfl.utils.Timer;
 
 
