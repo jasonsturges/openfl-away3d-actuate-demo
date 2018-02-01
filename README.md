@@ -1,8 +1,8 @@
 # OpenFL Away3D Actuate Demo
 3D tweening demo using OpenFL, Away3D, Actuate, and Haxe
 
-Launch demo: http://jasonsturges.com/openfl-away3d-actuate-demo
-![screen-capture](http://labs.jasonsturges.com/openfl/openfl-away3d-actuate-demo/openfl-away3d-actuate-demo-html5.png)
+Launch demo: http://labs.jasonsturges.com/haxe/openfl/away3d/actuate-demo/
+![screen-capture](http://labs.jasonsturges.com/haxe/openfl/away3d/actuate-demo/screenshot.png)
 
 
 ## Getting started
